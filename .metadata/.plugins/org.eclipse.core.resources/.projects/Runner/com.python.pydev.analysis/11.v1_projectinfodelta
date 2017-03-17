@@ -1,0 +1,12 @@
+INSTUPtests.testThread
+/home/matt/Dokumenty/git/SeleniumRunner/Runner/tests/testThread.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&3|6|2|5&&3|7|2|5&&3|8|2|5&&2|9|2|1
+mainWindow=4
+__init__=3
+testPath=7
+testId=6
+TestThread=1
+TestThread.__init__=5
+logger=8
+run=9
+tests.testThread=2

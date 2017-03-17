@@ -43,7 +43,7 @@ class MainWindow(Tkinter.Tk):
 #Widgets     
     def createLogArea(self):
         logFrame = Frame()
-        #logFrame.grid(sticky="NSEW")
+        logFrame.grid(sticky="NSEW")
         logFrame.grid_columnconfigure(0,weight=1)
         logFrame.grid_rowconfigure(0,weight=1)
         
@@ -85,7 +85,7 @@ class MainWindow(Tkinter.Tk):
             for test in case.getTestCases():
                 self.tree.insert(parent, index, test.getId(), text = test.getName())
                 index += 1
-        #self.tree.grid(row = 0, column = 0, sticky='NSEW')
+        self.tree.grid(row = 0, column = 0, sticky='NSEW')
         
         self.treeFrame.add(self.tree)
 #Actions        
