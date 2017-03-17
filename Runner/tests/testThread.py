@@ -15,12 +15,8 @@ class TestThread(threading.Thread):
         
     def run(self):
         try:
-            print "1"
             sys.path.append(os.path.join(os.path.dirname(sys.path[0]),'Runner', 'tests'))
-            #sys.path.insert(0, "/home/matt/Dokumenty/eclipse_workspace/Runner/tests")
-            print "2"
             i = importlib.import_module(self.testPath)
-            print "3"
             i.run(self.logger)
             self.mainWindow.setGreenDot(self.testId)
         except:

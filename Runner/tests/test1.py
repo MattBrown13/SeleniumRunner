@@ -1,11 +1,16 @@
-import os
+import os, sys
 import time
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
+import platform
 
 def run(logger):
     logger.error("Start driver")
-    chromedriver = "/home/matt/Dokumenty/eclipse_workspace/SeleniumP/chromedriver"
+    if (platform.system() == "Windows"):
+        chromedriver = sys.path[0] + "\chromedriverWindows"
+    else:
+        chromedriver = sys.path[0] + "\chromedriverLinux"
+
     os.environ["webdriver.chrome.driver"] = chromedriver
     driver = webdriver.Chrome(chromedriver)
     driver.get("http://google.com")
