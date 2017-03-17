@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<test>
+	<testSuit id="suit_one">
+		<name>Suit One</name>>
+		
+		<testCase id="case_one">
+			<name>Case One</name>
+			<path>test1</path>>
+		</testCase>
+		
+		<testCase id="case_two">
+			<name>Case Two</name>
+			<path>test2</path>>
+		</testCase>
+		
+		<testCase id="case_three">
+			<name>Case Three</name>
+			<path>test3</path>
+		</testCase>
+	</testSuit>
+	<testSuit id="suit_two">
+		<name>Suit Two</name>>
+		
+		<testCase id="case_four">
+			<name>Case Four</name>
+			<path>test4</path>>
+		</testCase>
+		
+		<testCase id="case_five">
+			<name>Case Five</name>
+			<path>test5</path>>
+		</testCase>
+	</testSuit>
+	<testSuit id="suit_three">
+		<name>Suit Three</name>>
+		
+		<testCase id="case_six">
+			<name>Case Six</name>
+			<path>test6</path>>
+		</testCase>
+	</testSuit>
+</test>

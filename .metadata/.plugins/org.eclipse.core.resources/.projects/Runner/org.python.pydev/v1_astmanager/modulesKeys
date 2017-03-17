@@ -1,0 +1,9 @@
+MODULES_MANAGER_V2
+Main|/home/matt/Dokumenty/git/SeleniumRunner/Runner/Main.py
+components.logger|/home/matt/Dokumenty/git/SeleniumRunner/Runner/components/logger.py
+components.myLogger|/home/matt/Dokumenty/git/SeleniumRunner/Runner/components/myLogger.py
+gui.mainWindow|/home/matt/Dokumenty/git/SeleniumRunner/Runner/gui/mainWindow.py
+plans.SAXparser|/home/matt/Dokumenty/git/SeleniumRunner/Runner/plans/SAXparser.py
+tests.test1|/home/matt/Dokumenty/git/SeleniumRunner/Runner/tests/test1.py
+tests.test2|/home/matt/Dokumenty/git/SeleniumRunner/Runner/tests/test2.py
+tests.testThread|/home/matt/Dokumenty/git/SeleniumRunner/Runner/tests/testThread.py
