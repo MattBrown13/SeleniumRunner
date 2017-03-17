@@ -1,7 +1,7 @@
-import sys
-sys.path.insert(0, "/home/matt/Dokumenty/eclipse_workspace/Runner/plans")
+import sys, os
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]),'Runner', 'plans'))
 import SAXparser
-sys.path.insert(0, "/home/matt/Dokumenty/eclipse_workspace/Runner/gui")
+sys.path.append(os.path.join(os.path.dirname(sys.path[0]),'Runner', 'gui'))
 import mainWindow
 
 
