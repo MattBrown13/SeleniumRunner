@@ -1212,7 +1212,6 @@ netrc|/usr/lib/python2.7/netrc.py
 new|/usr/lib/python2.7/new.py
 nntplib|/usr/lib/python2.7/nntplib.py
 nt
-ntdb|/usr/lib/python2.7/dist-packages/ntdb.so
 ntpath|/usr/lib/python2.7/ntpath.py
 nturl2path|/usr/lib/python2.7/nturl2path.py
 numbers|/usr/lib/python2.7/numbers.py
